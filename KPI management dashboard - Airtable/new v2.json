@@ -20,8 +20,8 @@
           "creationMode": "DEFAULT",
           "updatedAt": "2024-02-29T10:47:17.609Z",
           "editingVersion": {
-            "id": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-            "name": "v1",
+            "id": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+            "name": "new v2",
             "definition": {
               "showViewerNavigation": false,
               "homePageId": "60d56e2c-737e-496c-bf71-5985a166d3e2",
@@ -3299,7 +3299,6 @@
                               "actionId": "run-query",
                               "message": "Hello world!",
                               "alertType": "info",
-                              "queryId": "34280afe-2371-4ce1-b96f-48f4eae9d9f1",
                               "queryName": "acquisition",
                               "parameters": {}
                             }
@@ -4004,7 +4003,6 @@
                               "actionId": "run-query",
                               "message": "Hello world!",
                               "alertType": "info",
-                              "queryId": "022ecac4-61dc-4b39-aa1a-21c77dff2c50",
                               "queryName": "retention",
                               "parameters": {}
                             }
@@ -4868,7 +4866,6 @@
                               "actionId": "run-query",
                               "message": "Hello world!",
                               "alertType": "info",
-                              "queryId": "628f25c5-e1db-4ea4-9caa-6dbaeac57080",
                               "queryName": "activationFunnel",
                               "parameters": {}
                             }
@@ -14053,7 +14050,6 @@
                               "actionId": "run-query",
                               "message": "Hello world!",
                               "alertType": "info",
-                              "queryId": "49c32bb4-8ee8-46dc-8231-0622a1185c73",
                               "queryName": "referral",
                               "parameters": {}
                             }
@@ -14394,7 +14390,6 @@
                               "actionId": "run-query",
                               "message": "Hello world!",
                               "alertType": "info",
-                              "queryId": "8f74973e-ad1c-4653-a659-e0857b8638cc",
                               "queryName": "revenue",
                               "parameters": {}
                             }
@@ -14525,19 +14520,19 @@
               "backgroundFxQuery": ""
             },
             "showViewerNavigation": false,
-            "homePageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+            "homePageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
             "appId": "9954a745-45ba-4f31-b064-7b93e4a81bda",
             "currentEnvironmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
             "promotedFrom": null,
-            "createdAt": "2024-02-29T10:47:16.871Z",
-            "updatedAt": "2024-02-29T10:49:33.953Z"
+            "createdAt": "2024-02-29T10:55:52.556Z",
+            "updatedAt": "2024-02-29T10:55:52.419Z"
           },
           "components": [
             {
-              "id": "47839d64-d1e7-4693-804f-944c5a5e286f",
+              "id": "c6258fbe-d20f-4ef6-a2e7-63f5c9ff61b3",
               "name": "container1",
               "type": "Container",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "parent": null,
               "properties": {
                 "visible": {
@@ -14579,25 +14574,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "a75e9cce-9bdb-44a5-8d77-d5c65070d8a7",
+                  "id": "6edbed51-81d8-4a4f-a845-ea414eccf99a",
                   "type": "desktop",
                   "top": 110,
                   "left": 60.46511627906977,
                   "width": 16,
                   "height": 280,
-                  "componentId": "47839d64-d1e7-4693-804f-944c5a5e286f"
+                  "componentId": "c6258fbe-d20f-4ef6-a2e7-63f5c9ff61b3"
                 }
               ]
             },
             {
-              "id": "ec9fec42-ab9f-437d-a92c-7bb4dcd13174",
+              "id": "152448de-15c6-41c5-84dd-034cd88450c2",
               "name": "container2",
               "type": "Container",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "parent": null,
               "properties": {
                 "visible": {
@@ -14637,26 +14632,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "7d729055-9ad8-42bf-a905-d25afefb7c94",
+                  "id": "3b67ae32-b74a-44f4-824b-177ae95f587e",
                   "type": "desktop",
                   "top": 20,
                   "left": 2.3255815289930273,
                   "width": 41,
                   "height": 70,
-                  "componentId": "ec9fec42-ab9f-437d-a92c-7bb4dcd13174"
+                  "componentId": "152448de-15c6-41c5-84dd-034cd88450c2"
                 }
               ]
             },
             {
-              "id": "72db6528-b1a7-45fc-a0a3-eb0d46d373ed",
+              "id": "5fd26543-efb9-4d73-ae0e-92ce09ddd317",
               "name": "text1",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "ec9fec42-ab9f-437d-a92c-7bb4dcd13174",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "152448de-15c6-41c5-84dd-034cd88450c2",
               "properties": {
                 "text": {
                   "value": "B R A N D"
@@ -14726,26 +14721,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "43958921-6a5d-4929-a78e-a811c5f549a4",
+                  "id": "d06fb1c2-8669-4bfc-8745-cb1976cce888",
                   "type": "desktop",
                   "top": 10,
                   "left": 2.325581395348837,
                   "width": 4.999999999999999,
                   "height": 40,
-                  "componentId": "72db6528-b1a7-45fc-a0a3-eb0d46d373ed"
+                  "componentId": "5fd26543-efb9-4d73-ae0e-92ce09ddd317"
                 }
               ]
             },
             {
-              "id": "f6f372ef-de93-4ac5-8ff7-7d59a3494448",
+              "id": "219fbf8f-a1b8-4f62-8490-010fe9ca0265",
               "name": "text2",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "ec9fec42-ab9f-437d-a92c-7bb4dcd13174",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "152448de-15c6-41c5-84dd-034cd88450c2",
               "properties": {
                 "text": {
                   "value": "KPI Management Dashboard"
@@ -14816,26 +14811,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "f54c7919-861c-446e-851c-b79dba759e9c",
+                  "id": "206514ad-0752-4601-9a0e-619fe5436a1d",
                   "type": "desktop",
                   "top": 10,
                   "left": 69.76744175185723,
                   "width": 12,
                   "height": 40,
-                  "componentId": "f6f372ef-de93-4ac5-8ff7-7d59a3494448"
+                  "componentId": "219fbf8f-a1b8-4f62-8490-010fe9ca0265"
                 }
               ]
             },
             {
-              "id": "d5713fe9-cc47-485e-8816-e223e4a1d2b5",
+              "id": "4a062ab4-87fb-4473-b9a4-85a848c18598",
               "name": "chart3",
               "type": "Chart",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "47839d64-d1e7-4693-804f-944c5a5e286f",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "c6258fbe-d20f-4ef6-a2e7-63f5c9ff61b3",
               "properties": {
                 "title": {
                   "value": ""
@@ -14895,26 +14890,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "6be628cf-cea5-4767-b368-e6806f808ed2",
+                  "id": "b05ca9dd-3248-4445-8ce1-717664f5576f",
                   "type": "desktop",
                   "top": 70,
                   "left": 4.65117575546216,
                   "width": 39,
                   "height": 190,
-                  "componentId": "d5713fe9-cc47-485e-8816-e223e4a1d2b5"
+                  "componentId": "4a062ab4-87fb-4473-b9a4-85a848c18598"
                 }
               ]
             },
             {
-              "id": "6ad77cdf-95a9-475a-a47f-49862825df46",
+              "id": "68cdebba-2988-431c-b31c-83c3420abd36",
               "name": "text3",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "47839d64-d1e7-4693-804f-944c5a5e286f",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "c6258fbe-d20f-4ef6-a2e7-63f5c9ff61b3",
               "properties": {
                 "text": {
                   "value": "RETENTION"
@@ -14984,25 +14979,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "b353b067-fef5-46c0-96ee-eaf8da51553a",
+                  "id": "9b1dda6a-2b9f-4043-b1ae-3d77e21286f9",
                   "type": "desktop",
                   "top": 20,
                   "left": 4.651163311669692,
                   "width": 10,
                   "height": 40,
-                  "componentId": "6ad77cdf-95a9-475a-a47f-49862825df46"
+                  "componentId": "68cdebba-2988-431c-b31c-83c3420abd36"
                 }
               ]
             },
             {
-              "id": "8c29fc05-2e68-4385-b568-96b8d1d5f846",
+              "id": "d476da6d-e900-4cc1-be0f-fb80d39ca845",
               "name": "container3",
               "type": "Container",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "parent": null,
               "properties": {
                 "visible": {
@@ -15044,26 +15039,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "45c7aeb9-e8ab-4cfb-be26-9b18157189ae",
+                  "id": "be2ff0b0-07e9-4bd9-8089-0856a5145a6f",
                   "type": "desktop",
                   "top": 410,
                   "left": 60.46511817524451,
                   "width": 16,
                   "height": 290,
-                  "componentId": "8c29fc05-2e68-4385-b568-96b8d1d5f846"
+                  "componentId": "d476da6d-e900-4cc1-be0f-fb80d39ca845"
                 }
               ]
             },
             {
-              "id": "576312fc-97b9-4079-b69f-15df8dce3b34",
+              "id": "44cd815e-cbbc-49ef-895e-f9f175bf95a0",
               "name": "chart4",
               "type": "Chart",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "8c29fc05-2e68-4385-b568-96b8d1d5f846",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "d476da6d-e900-4cc1-be0f-fb80d39ca845",
               "properties": {
                 "title": {
                   "value": ""
@@ -15123,26 +15118,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "d24f5187-7ba3-4bb0-9935-35773b1dc384",
+                  "id": "8b0f1c20-0bd0-4344-ae86-d7ba032d31e3",
                   "type": "desktop",
                   "top": 70,
                   "left": 4.651153712986266,
                   "width": 38.99999999999999,
                   "height": 200,
-                  "componentId": "576312fc-97b9-4079-b69f-15df8dce3b34"
+                  "componentId": "44cd815e-cbbc-49ef-895e-f9f175bf95a0"
                 }
               ]
             },
             {
-              "id": "30cc4fb5-1bf0-4b29-a410-12207dca1710",
+              "id": "c2f25328-abf2-4e35-ae88-7faa766cc77b",
               "name": "text4",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "8c29fc05-2e68-4385-b568-96b8d1d5f846",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "d476da6d-e900-4cc1-be0f-fb80d39ca845",
               "properties": {
                 "text": {
                   "value": "REVENUE"
@@ -15212,25 +15207,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "6442727b-ac57-4927-b85a-c6c4a753ad76",
+                  "id": "9a61fdea-0220-436f-9688-026c694b0649",
                   "type": "desktop",
                   "top": 20,
                   "left": 4.65114320608952,
                   "width": 10,
                   "height": 40,
-                  "componentId": "30cc4fb5-1bf0-4b29-a410-12207dca1710"
+                  "componentId": "c2f25328-abf2-4e35-ae88-7faa766cc77b"
                 }
               ]
             },
             {
-              "id": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "id": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "name": "container4",
               "type": "Container",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "parent": null,
               "properties": {
                 "visible": {
@@ -15274,26 +15269,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "d606aee6-f5c1-4283-8207-d574a0a60a8d",
+                  "id": "5536978b-b4ad-4a33-9cb7-140e66703e72",
                   "type": "desktop",
                   "top": 110,
                   "left": 2.325584284033393,
                   "width": 12,
                   "height": 590,
-                  "componentId": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa"
+                  "componentId": "f6b29881-10b5-4719-aa89-704ea4561a90"
                 }
               ]
             },
             {
-              "id": "4b515508-0ade-4e30-a2ac-f47d47ccd22d",
+              "id": "13b35658-4beb-47f0-bab3-990b8bf2c56c",
               "name": "text5",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "ACQUISITION"
@@ -15363,26 +15358,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "a2cb45b7-4d97-4af2-a361-c2975136a4b8",
+                  "id": "7d33ffde-8cc2-43b4-94dc-def925afbfff",
                   "type": "desktop",
                   "top": 20,
                   "left": 4.651162790697674,
                   "width": 17,
                   "height": 40,
-                  "componentId": "4b515508-0ade-4e30-a2ac-f47d47ccd22d"
+                  "componentId": "13b35658-4beb-47f0-bab3-990b8bf2c56c"
                 }
               ]
             },
             {
-              "id": "cbe1dc56-aa35-4ed7-9875-9da4c5426faf",
+              "id": "41809e58-b0fc-40d4-b32c-bf9041e9bdea",
               "name": "text6",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "Subcribed:"
@@ -15453,25 +15448,25 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "16421219-99ea-4c19-85f1-6ddb33e76d3e",
+                  "id": "b3ae6799-36e4-4cd4-a6f3-2202c8cf5e2c",
                   "type": "desktop",
                   "top": 90,
                   "left": 4.651163973200548,
                   "width": 15,
                   "height": 40,
-                  "componentId": "cbe1dc56-aa35-4ed7-9875-9da4c5426faf"
+                  "componentId": "41809e58-b0fc-40d4-b32c-bf9041e9bdea"
                 }
               ]
             },
             {
-              "id": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "id": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "name": "container5",
               "type": "Container",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "parent": null,
               "properties": {
                 "visible": {
@@ -15514,26 +15509,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "a98fda71-1ff6-4250-b579-b0e1f099ed86",
+                  "id": "9f06b63d-0e14-462f-ab2b-54a3c14a1483",
                   "type": "desktop",
                   "top": 110,
                   "left": 32.55814247125385,
                   "width": 11,
                   "height": 280,
-                  "componentId": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce"
+                  "componentId": "71729fb9-58b3-4c97-9b23-256ee1a2b609"
                 }
               ]
             },
             {
-              "id": "1beb733d-b990-41e5-be7d-05b6fd003b1b",
+              "id": "744c0c41-73b3-4e5a-b904-a71a12c4a2e2",
               "name": "text8",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "properties": {
                 "text": {
                   "value": "Sign ups:"
@@ -15604,26 +15599,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "33dadd2a-0936-4446-9e20-feb7713a6073",
+                  "id": "220d9488-b2c6-498f-8fcb-0f7c3eef2f97",
                   "type": "desktop",
                   "top": 100,
                   "left": 6.976730791209962,
                   "width": 18.000000000000004,
                   "height": 40,
-                  "componentId": "1beb733d-b990-41e5-be7d-05b6fd003b1b"
+                  "componentId": "744c0c41-73b3-4e5a-b904-a71a12c4a2e2"
                 }
               ]
             },
             {
-              "id": "1a748fc6-3910-4af7-aa66-00bdf9a08e1e",
+              "id": "6d3ed48c-072c-4269-8e26-7cc417bb9098",
               "name": "text9",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "2046b0fa-1c66-4ea0-86f4-b2a36e1321fa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "18ecd812-0156-4180-ac22-7667eaaffd50",
               "properties": {
                 "text": {
                   "value": "REFERRAL"
@@ -15693,26 +15688,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "cb5df57f-69eb-478e-8952-a2cfe75b06c8",
+                  "id": "dad85062-92c1-4beb-8e29-196aa0f418d8",
                   "type": "desktop",
                   "top": 20,
                   "left": 4.651162790697675,
                   "width": 17,
                   "height": 40,
-                  "componentId": "1a748fc6-3910-4af7-aa66-00bdf9a08e1e"
+                  "componentId": "6d3ed48c-072c-4269-8e26-7cc417bb9098"
                 }
               ]
             },
             {
-              "id": "f721c6d7-eca1-4663-ab8e-523f0c95642b",
+              "id": "ec64ef36-d848-4455-81ef-14129c6f99bb",
               "name": "text11",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "SIGN UPS BY CHANNEL"
@@ -15783,26 +15778,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "912a005c-a0e9-4a6d-bf23-b181b7982df3",
+                  "id": "e4539de5-dfa9-45c8-bf9b-0b32dfc40fd0",
                   "type": "desktop",
                   "top": 160,
                   "left": 4.651163323393164,
                   "width": 35.99999999999999,
                   "height": 30,
-                  "componentId": "f721c6d7-eca1-4663-ab8e-523f0c95642b"
+                  "componentId": "ec64ef36-d848-4455-81ef-14129c6f99bb"
                 }
               ]
             },
             {
-              "id": "c86c3e7e-9ea1-4109-a596-2e76ccb7109e",
+              "id": "7eee3bab-e959-44f5-b2b1-361c2c8c0478",
               "name": "text12",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "properties": {
                 "text": {
                   "value": "Created an app:"
@@ -15873,26 +15868,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "6edad552-a0da-43f2-b78f-fa844ce9f0a9",
+                  "id": "39c6396c-551a-4768-9d6b-1b5ce756e416",
                   "type": "desktop",
                   "top": 150,
                   "left": 6.976763400547389,
                   "width": 18.000000000000004,
                   "height": 40,
-                  "componentId": "c86c3e7e-9ea1-4109-a596-2e76ccb7109e"
+                  "componentId": "7eee3bab-e959-44f5-b2b1-361c2c8c0478"
                 }
               ]
             },
             {
-              "id": "5652ee30-3d4c-4e5a-85d0-5c8fc39df39a",
+              "id": "ba789720-fc82-42df-96b5-1524d38b1b7c",
               "name": "text13",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "properties": {
                 "text": {
                   "value": "Released an app:"
@@ -15963,26 +15958,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "d805649f-da50-43ff-a588-5197ba8509da",
+                  "id": "04ed3991-f3c8-4590-b2a2-310be7b98f34",
                   "type": "desktop",
                   "top": 200,
                   "left": 6.9767478567812145,
                   "width": 18.000000000000004,
                   "height": 40,
-                  "componentId": "5652ee30-3d4c-4e5a-85d0-5c8fc39df39a"
+                  "componentId": "ba789720-fc82-42df-96b5-1524d38b1b7c"
                 }
               ]
             },
             {
-              "id": "0f00b2e6-47b7-44f6-b927-247f89b30239",
+              "id": "120c36e9-8d40-455a-ae5f-22cd1e943797",
               "name": "text14",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "{{queries?.acquisition?.data?.totalSubscribed ?? 0}}"
@@ -16054,26 +16049,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "14685721-9513-41fa-a59c-127917546fd8",
+                  "id": "4b4cda0d-95fb-486f-aeae-692b8e9e8771",
                   "type": "desktop",
                   "top": 90,
                   "left": 65.11628603742591,
                   "width": 12,
                   "height": 40,
-                  "componentId": "0f00b2e6-47b7-44f6-b927-247f89b30239"
+                  "componentId": "120c36e9-8d40-455a-ae5f-22cd1e943797"
                 }
               ]
             },
             {
-              "id": "e9ea277a-bbd8-44d4-82a1-d42a6771c657",
+              "id": "9debd28a-62b3-4efe-ab2f-900e1bf4b272",
               "name": "statistics1",
               "type": "Statistics",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "2046b0fa-1c66-4ea0-86f4-b2a36e1321fa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "18ecd812-0156-4180-ac22-7667eaaffd50",
               "properties": {
                 "primaryValueLabel": {
                   "value": "Total referrals"
@@ -16130,26 +16125,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "797262c1-d770-4e9f-9bb1-8b17bfbc3af6",
+                  "id": "2da933be-1eb1-40cb-9952-ef1efe451ce1",
                   "type": "desktop",
                   "top": 80,
                   "left": 4.651148502430111,
                   "width": 38,
                   "height": 180,
-                  "componentId": "e9ea277a-bbd8-44d4-82a1-d42a6771c657"
+                  "componentId": "9debd28a-62b3-4efe-ab2f-900e1bf4b272"
                 }
               ]
             },
             {
-              "id": "0ec4683c-272b-4155-956b-2b09b78a05bc",
+              "id": "d1c225ed-769c-4731-b252-fcf92ff3d659",
               "name": "divider1",
               "type": "Divider",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {},
               "general": {},
               "styles": {
@@ -16174,26 +16169,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "89720d4b-b322-4235-a840-733ae25d1842",
+                  "id": "2320153d-4a61-42b5-9c01-f36ca9177d4c",
                   "type": "desktop",
                   "top": 140,
                   "left": 4.651161663555412,
                   "width": 38,
                   "height": 10,
-                  "componentId": "0ec4683c-272b-4155-956b-2b09b78a05bc"
+                  "componentId": "d1c225ed-769c-4731-b252-fcf92ff3d659"
                 }
               ]
             },
             {
-              "id": "fb496e2b-d305-43ae-8dfb-3bed9e421f33",
+              "id": "ce831ae9-6676-46d7-b22f-7a1ea011a001",
               "name": "text15",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "Total:"
@@ -16264,26 +16259,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "90f64f92-d660-49ac-95e8-50a8af195cc1",
+                  "id": "6ce63625-0653-4d31-962d-ecb95421647d",
                   "type": "desktop",
                   "top": 220,
                   "left": 4.651154652162777,
                   "width": 20,
                   "height": 30,
-                  "componentId": "fb496e2b-d305-43ae-8dfb-3bed9e421f33"
+                  "componentId": "ce831ae9-6676-46d7-b22f-7a1ea011a001"
                 }
               ]
             },
             {
-              "id": "20f6e038-e012-432b-8f5d-7e386cc0163c",
+              "id": "c334c0ee-b449-45fd-ab06-12947a51a7ca",
               "name": "text16",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "Website:"
@@ -16354,26 +16349,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "8a130766-8675-4673-9a2f-497a2a65ea90",
+                  "id": "6160bb15-e325-4df3-903d-9ce0dc7b5f7c",
                   "type": "desktop",
                   "top": 280,
                   "left": 4.651159069070309,
                   "width": 20,
                   "height": 30,
-                  "componentId": "20f6e038-e012-432b-8f5d-7e386cc0163c"
+                  "componentId": "c334c0ee-b449-45fd-ab06-12947a51a7ca"
                 }
               ]
             },
             {
-              "id": "25391f94-4d3a-40b9-bd4e-aa822bb86150",
+              "id": "9dd18385-d743-47c5-bd45-1042c903d291",
               "name": "text17",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "Blog:"
@@ -16444,26 +16439,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "09fefd01-0de6-48b3-9502-0925870cfc0c",
+                  "id": "ce89cbba-4e1f-473b-b88f-c2b380abdba0",
                   "type": "desktop",
                   "top": 330,
                   "left": 4.651158248242562,
                   "width": 20,
                   "height": 30,
-                  "componentId": "25391f94-4d3a-40b9-bd4e-aa822bb86150"
+                  "componentId": "9dd18385-d743-47c5-bd45-1042c903d291"
                 }
               ]
             },
             {
-              "id": "75f40545-a06e-49aa-946c-6c6475efe5f8",
+              "id": "00504f39-da75-451b-b20a-763dc4bc1d15",
               "name": "text18",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "Advertisements:"
@@ -16534,26 +16529,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "64a0878f-7eb7-4d13-b76b-d32a02930f0c",
+                  "id": "5aebfd27-37d6-4b28-93a1-e09e272b4471",
                   "type": "desktop",
                   "top": 380,
                   "left": 4.651150378824226,
                   "width": 20,
                   "height": 30,
-                  "componentId": "75f40545-a06e-49aa-946c-6c6475efe5f8"
+                  "componentId": "00504f39-da75-451b-b20a-763dc4bc1d15"
                 }
               ]
             },
             {
-              "id": "46de1fe8-6eb0-44b7-a255-bcc33efe1fed",
+              "id": "18c47aa0-56a9-48ec-991e-38784e0b9409",
               "name": "text19",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "Organic search:"
@@ -16624,26 +16619,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "4881cb14-71b5-4f2b-bc11-e0c7322cc2b6",
+                  "id": "d0a94245-d1a9-42b3-bbe9-2773115d9520",
                   "type": "desktop",
                   "top": 480,
                   "left": 4.651159421059893,
                   "width": 20,
                   "height": 30,
-                  "componentId": "46de1fe8-6eb0-44b7-a255-bcc33efe1fed"
+                  "componentId": "18c47aa0-56a9-48ec-991e-38784e0b9409"
                 }
               ]
             },
             {
-              "id": "4b8062d0-0ac2-44ca-bbda-ba4c0136f85b",
+              "id": "2421f2fd-c9e7-4a41-9274-525f5781f33a",
               "name": "text20",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "Paid search:"
@@ -16714,26 +16709,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "195de4af-e351-4d98-a6f3-b5f651a7900b",
+                  "id": "0e412e72-fd81-488f-b075-91a88276b9ad",
                   "type": "desktop",
                   "top": 530,
                   "left": 4.6511731058432675,
                   "width": 20,
                   "height": 30,
-                  "componentId": "4b8062d0-0ac2-44ca-bbda-ba4c0136f85b"
+                  "componentId": "2421f2fd-c9e7-4a41-9274-525f5781f33a"
                 }
               ]
             },
             {
-              "id": "88bd5113-6606-43de-8a03-a1a91a07c272",
+              "id": "dfdc7b6e-385e-4bf1-9f50-24769d800371",
               "name": "activationFunnelDropdown",
               "type": "DropDown",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "properties": {
                 "advanced": {
                   "value": "{{false}}"
@@ -16793,26 +16788,26 @@
                   "value": null
                 }
               },
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "a34030f7-efad-4565-b21a-57dbb2241268",
+                  "id": "57036e2b-4437-4641-96b2-98eb019f4062",
                   "type": "desktop",
                   "top": 20,
                   "left": 58.13953488372093,
                   "width": 15.000000000000002,
                   "height": 40,
-                  "componentId": "88bd5113-6606-43de-8a03-a1a91a07c272"
+                  "componentId": "dfdc7b6e-385e-4bf1-9f50-24769d800371"
                 }
               ]
             },
             {
-              "id": "68e88894-3c3b-4dd2-8c3d-26db351f658e",
+              "id": "5dd97c9c-4bde-4f7d-bbd7-8b66c9d776c7",
               "name": "retentionDropdown",
               "type": "DropDown",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "47839d64-d1e7-4693-804f-944c5a5e286f",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "c6258fbe-d20f-4ef6-a2e7-63f5c9ff61b3",
               "properties": {
                 "advanced": {
                   "value": "{{false}}"
@@ -16872,25 +16867,25 @@
                   "value": null
                 }
               },
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "7e2e9bcd-5b68-423d-8164-837f83e67892",
+                  "id": "e71a43c3-7973-402e-bd2b-693af7a80bbf",
                   "type": "desktop",
                   "top": 20,
                   "left": 46.51161230237243,
                   "width": 21,
                   "height": 40,
-                  "componentId": "68e88894-3c3b-4dd2-8c3d-26db351f658e"
+                  "componentId": "5dd97c9c-4bde-4f7d-bbd7-8b66c9d776c7"
                 }
               ]
             },
             {
-              "id": "2046b0fa-1c66-4ea0-86f4-b2a36e1321fa",
+              "id": "18ecd812-0156-4180-ac22-7667eaaffd50",
               "name": "container6",
               "type": "Container",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "parent": null,
               "properties": {
                 "visible": {
@@ -16932,26 +16927,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "d4021ffc-e9d2-4944-b4d7-c1915def714c",
+                  "id": "241078d7-2ce1-41c6-b075-fe5f674dc076",
                   "type": "desktop",
                   "top": 410,
                   "left": 32.55812615099792,
                   "width": 11,
                   "height": 290,
-                  "componentId": "2046b0fa-1c66-4ea0-86f4-b2a36e1321fa"
+                  "componentId": "18ecd812-0156-4180-ac22-7667eaaffd50"
                 }
               ]
             },
             {
-              "id": "109d68bd-70cf-4454-8166-6f89e0f1c647",
+              "id": "f03d1570-02fa-4d2b-9029-fbfe5ceac04c",
               "name": "text7",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "properties": {
                 "text": {
                   "value": "ACTIVATION\nFUNNEL"
@@ -17021,26 +17016,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "6a9b8ceb-238c-420b-a55c-cf10962a976d",
+                  "id": "1e7e8712-3767-4552-8a51-993f853d32cb",
                   "type": "desktop",
                   "top": 20,
                   "left": 6.9767441860465125,
                   "width": 22,
                   "height": 40,
-                  "componentId": "109d68bd-70cf-4454-8166-6f89e0f1c647"
+                  "componentId": "f03d1570-02fa-4d2b-9029-fbfe5ceac04c"
                 }
               ]
             },
             {
-              "id": "d2db2677-8bbc-4604-979f-ad0f404a3be1",
+              "id": "210e0485-0db0-4ab4-8643-63b3ccd590c9",
               "name": "text21",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "Email:"
@@ -17111,26 +17106,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "e6eebbc0-9b09-4eef-82ac-68e1bd7b9d44",
+                  "id": "b1714077-ff8a-4409-b22b-0cf608db8410",
                   "type": "desktop",
                   "top": 430,
                   "left": 4.651159909674317,
                   "width": 20,
                   "height": 30,
-                  "componentId": "d2db2677-8bbc-4604-979f-ad0f404a3be1"
+                  "componentId": "210e0485-0db0-4ab4-8643-63b3ccd590c9"
                 }
               ]
             },
             {
-              "id": "cc2355a4-eb23-42d6-a6f5-51466508c2a2",
+              "id": "8b17e67b-68c4-4cf8-af5f-5706c9b918fb",
               "name": "text22",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "properties": {
                 "text": {
                   "value": "{{`${queries?.activationFunnel?.data?.totalSignups ?? 0} (100%)`}}"
@@ -17202,26 +17197,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "f337dedc-656d-4e33-8e99-5d92c1e723a5",
+                  "id": "1972622f-5b9b-4648-a42c-45f0210e901c",
                   "type": "desktop",
                   "top": 100,
                   "left": 51.16281766035119,
                   "width": 17,
                   "height": 40,
-                  "componentId": "cc2355a4-eb23-42d6-a6f5-51466508c2a2"
+                  "componentId": "8b17e67b-68c4-4cf8-af5f-5706c9b918fb"
                 }
               ]
             },
             {
-              "id": "224e3677-6d02-49e9-8134-5ad041413972",
+              "id": "0bd4d7f6-eed7-476a-9428-ce45d2a519ca",
               "name": "text23",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "properties": {
                 "text": {
                   "value": "{{`${queries?.activationFunnel?.data?.totalUsersCreatedApps ?? 0} (${((queries\n  ?.activationFunnel?.data?.totalSignups ?? 0) == 0\n  ? 0\n  : ((queries?.activationFunnel?.data?.totalUsersCreatedApps ?? 0) /\n      (queries?.activationFunnel?.data?.totalSignups ?? 0)) *\n    100\n).toFixed()}%)`}}"
@@ -17293,26 +17288,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "6a5e89eb-51d3-4a2e-a3ee-ddfec34d49bc",
+                  "id": "1f9cb7b1-733b-4680-ad07-7accb455a9a4",
                   "type": "desktop",
                   "top": 150,
                   "left": 51.162765878385464,
                   "width": 17,
                   "height": 40,
-                  "componentId": "224e3677-6d02-49e9-8134-5ad041413972"
+                  "componentId": "0bd4d7f6-eed7-476a-9428-ce45d2a519ca"
                 }
               ]
             },
             {
-              "id": "cd17a85e-002e-4c58-bfd1-1d7c458a2b67",
+              "id": "df056499-5b11-483a-81a9-c7da97be8654",
               "name": "text24",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "5c30087e-8ce6-4a8c-abaf-8a3b6ab52bce",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "71729fb9-58b3-4c97-9b23-256ee1a2b609",
               "properties": {
                 "text": {
                   "value": "{{`${queries?.activationFunnel?.data?.totalUsersReleasedApps ?? 0} (${((queries\n  ?.activationFunnel?.data?.totalSignups ?? 0) == 0\n  ? 0\n  : ((queries?.activationFunnel?.data?.totalUsersReleasedApps ?? 0) /\n      (queries?.activationFunnel?.data?.totalSignups ?? 0)) *\n    100\n).toFixed()}%)`}}"
@@ -17384,26 +17379,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "ae6594e5-c89e-4de8-80df-d4600a4ab756",
+                  "id": "2ab309ed-3a18-45e4-8e3d-6bd6d6292cd6",
                   "type": "desktop",
                   "top": 200,
                   "left": 51.1628127561272,
                   "width": 17,
                   "height": 40,
-                  "componentId": "cd17a85e-002e-4c58-bfd1-1d7c458a2b67"
+                  "componentId": "df056499-5b11-483a-81a9-c7da97be8654"
                 }
               ]
             },
             {
-              "id": "8e337655-2fd1-4736-9dd4-a3219892b784",
+              "id": "8a91789a-4d82-49b7-b83b-be1c1893067f",
               "name": "text25",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "{{`${queries?.acquisition?.data?.totalSignups ?? 0} (100%)`}}"
@@ -17475,26 +17470,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "de3b237b-c76d-4a3e-93ff-1066c60b347b",
+                  "id": "18226193-38fa-49bd-9208-17bae391fb2c",
                   "type": "desktop",
                   "top": 220,
                   "left": 65.11627560786135,
                   "width": 12.000000000000002,
                   "height": 30,
-                  "componentId": "8e337655-2fd1-4736-9dd4-a3219892b784"
+                  "componentId": "8a91789a-4d82-49b7-b83b-be1c1893067f"
                 }
               ]
             },
             {
-              "id": "18ecdc86-7502-436e-a197-9a3455c22492",
+              "id": "189831b9-0aa8-4ef5-b511-bd430ecb5abf",
               "name": "text26",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "{{`${queries?.acquisition?.data?.signupByChannel[\"Website\"] ?? 0} (${((queries\n  ?.acquisition?.data?.totalSignups ?? 0) == 0\n  ? 0\n  : ((queries?.acquisition?.data?.signupByChannel[\"Website\"] ?? 0) /\n      (queries?.acquisition?.data?.totalSignups ?? 0)) *\n    100\n).toFixed()})%`}}"
@@ -17566,26 +17561,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "38647ca2-9237-4315-9f9b-5317b2b58cc1",
+                  "id": "e663b519-d489-4980-a76c-554040e10267",
                   "type": "desktop",
                   "top": 280,
                   "left": 65.11627939229854,
                   "width": 12.000000000000002,
                   "height": 30,
-                  "componentId": "18ecdc86-7502-436e-a197-9a3455c22492"
+                  "componentId": "189831b9-0aa8-4ef5-b511-bd430ecb5abf"
                 }
               ]
             },
             {
-              "id": "c60456b5-1a85-4977-ad97-202db3d15e96",
+              "id": "1520503f-9477-4ae5-9bf8-1ceaed2294a4",
               "name": "text27",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "{{`${queries?.acquisition?.data?.signupByChannel[\"Blog\"] ?? 0} (${((queries\n  ?.acquisition?.data?.totalSignups ?? 0) == 0\n  ? 0\n  : ((queries?.acquisition?.data?.signupByChannel[\"Blog\"] ?? 0) /\n      (queries?.acquisition?.data?.totalSignups ?? 0)) *\n    100\n).toFixed()})%`}}"
@@ -17657,26 +17652,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "8ba97e1c-63b6-461a-91ab-35bd112a31b5",
+                  "id": "34dc8c3f-c1d0-430f-b566-9f84e22e6ae8",
                   "type": "desktop",
                   "top": 330,
                   "left": 65.11627711191751,
                   "width": 12.000000000000002,
                   "height": 30,
-                  "componentId": "c60456b5-1a85-4977-ad97-202db3d15e96"
+                  "componentId": "1520503f-9477-4ae5-9bf8-1ceaed2294a4"
                 }
               ]
             },
             {
-              "id": "e3909674-fd82-478c-ba0c-66368e37608a",
+              "id": "2eddefa5-63bc-4878-b3d6-7d6f97e672e5",
               "name": "text28",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "{{`${\n  queries?.acquisition?.data?.signupByChannel[\"Advertisements\"] ?? 0\n} (${((queries?.acquisition?.data?.totalSignups ?? 0) == 0\n  ? 0\n  : ((queries?.acquisition?.data?.signupByChannel[\"Advertisements\"] ?? 0) /\n      (queries?.acquisition?.data?.totalSignups ?? 0)) *\n    100\n).toFixed()})%`}}"
@@ -17748,26 +17743,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "52dddefc-0225-4bbd-b3df-9efae54a6277",
+                  "id": "27495da6-0ab0-4390-b1f5-b80f3cf0d92f",
                   "type": "desktop",
                   "top": 380,
                   "left": 65.11628087210364,
                   "width": 12.000000000000002,
                   "height": 30,
-                  "componentId": "e3909674-fd82-478c-ba0c-66368e37608a"
+                  "componentId": "2eddefa5-63bc-4878-b3d6-7d6f97e672e5"
                 }
               ]
             },
             {
-              "id": "e25b81c3-8175-48ce-8904-2a93c434f0f9",
+              "id": "896e590d-521a-4e14-ab70-dee633babf7c",
               "name": "text29",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "{{`${queries?.acquisition?.data?.signupByChannel[\"Email\"] ?? 0} (${((queries\n  ?.acquisition?.data?.totalSignups ?? 0) == 0\n  ? 0\n  : ((queries?.acquisition?.data?.signupByChannel[\"Email\"] ?? 0) /\n      (queries?.acquisition?.data?.totalSignups ?? 0)) *\n    100\n).toFixed()})%`}}"
@@ -17839,26 +17834,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "dccbec71-67de-4ff4-9741-87ad93cbf833",
+                  "id": "62435ce0-707a-40a8-b481-1f822249c2f5",
                   "type": "desktop",
                   "top": 430,
                   "left": 65.11628656133645,
                   "width": 12.000000000000002,
                   "height": 30,
-                  "componentId": "e25b81c3-8175-48ce-8904-2a93c434f0f9"
+                  "componentId": "896e590d-521a-4e14-ab70-dee633babf7c"
                 }
               ]
             },
             {
-              "id": "1328855a-4113-4d4e-912a-19982d0ee040",
+              "id": "3e1a2a95-2398-4411-8b08-7092711b2ba6",
               "name": "revenueDropdown",
               "type": "DropDown",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "8c29fc05-2e68-4385-b568-96b8d1d5f846",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "d476da6d-e900-4cc1-be0f-fb80d39ca845",
               "properties": {
                 "advanced": {
                   "value": "{{false}}"
@@ -17918,26 +17913,26 @@
                   "value": null
                 }
               },
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "569c5006-6459-4506-9fa1-868f40d3d3df",
+                  "id": "994e5a25-406c-46c2-ab0f-05d1f53de2c8",
                   "type": "desktop",
                   "top": 20,
                   "left": 46.511601578996384,
                   "width": 21,
                   "height": 40,
-                  "componentId": "1328855a-4113-4d4e-912a-19982d0ee040"
+                  "componentId": "3e1a2a95-2398-4411-8b08-7092711b2ba6"
                 }
               ]
             },
             {
-              "id": "c2b32100-6153-44c6-9e16-872465a4b0c7",
+              "id": "26c20fad-6510-4e54-ad39-778f426ca631",
               "name": "text31",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "{{`${queries?.acquisition?.data?.signupByChannel[\"Paid-search\"] ?? 0} (${((queries\n  ?.acquisition?.data?.totalSignups ?? 0) == 0\n  ? 0\n  : ((queries?.acquisition?.data?.signupByChannel[\"Paid-search\"] ?? 0) /\n      (queries?.acquisition?.data?.totalSignups ?? 0)) *\n    100\n).toFixed()})%`}}"
@@ -18009,26 +18004,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "d9534da1-bce2-4419-b78b-d21d0d627ba6",
+                  "id": "18d1777b-323e-4450-bf3e-2f8fae9341fb",
                   "type": "desktop",
                   "top": 530,
                   "left": 65.11627721127229,
                   "width": 12.000000000000002,
                   "height": 30,
-                  "componentId": "c2b32100-6153-44c6-9e16-872465a4b0c7"
+                  "componentId": "26c20fad-6510-4e54-ad39-778f426ca631"
                 }
               ]
             },
             {
-              "id": "e176d4c8-0bba-414a-a26a-2f845f719686",
+              "id": "4c795936-4e72-4f61-89c4-d29b8b34661c",
               "name": "text30",
               "type": "Text",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "text": {
                   "value": "{{`${\n  queries?.acquisition?.data?.signupByChannel[\"Organic-search\"] ?? 0\n} (${((queries?.acquisition?.data?.totalSignups ?? 0) == 0\n  ? 0\n  : ((queries?.acquisition?.data?.signupByChannel[\"Organic-search\"] ?? 0) /\n      (queries?.acquisition?.data?.totalSignups ?? 0)) *\n    100\n).toFixed()})%`}}"
@@ -18100,26 +18095,26 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "5156e3d7-203a-4098-9be2-fa54868f8e4a",
+                  "id": "fd4d6e66-19d6-49a7-afb1-107b0ad7142e",
                   "type": "desktop",
                   "top": 480,
                   "left": 65.11627077038224,
                   "width": 12.000000000000002,
                   "height": 30,
-                  "componentId": "e176d4c8-0bba-414a-a26a-2f845f719686"
+                  "componentId": "4c795936-4e72-4f61-89c4-d29b8b34661c"
                 }
               ]
             },
             {
-              "id": "4f5c3cfe-3a1f-4bd5-aff8-09c254c9ed88",
+              "id": "bf9db8f5-951d-48b8-b9e1-23b6280cfd59",
               "name": "acquisitionDropdown",
               "type": "DropDown",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "3b8fe4c7-5ebc-4844-9d9e-5c60a63b8afa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "f6b29881-10b5-4719-aa89-704ea4561a90",
               "properties": {
                 "advanced": {
                   "value": "{{false}}"
@@ -18179,26 +18174,26 @@
                   "value": null
                 }
               },
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "3ed643c8-c90f-422e-87d2-02d5ca25bbb7",
+                  "id": "8b56f45c-d1d9-4d92-b879-98a35c0d5556",
                   "type": "desktop",
                   "top": 20,
                   "left": 46.51161994252318,
                   "width": 20,
                   "height": 40,
-                  "componentId": "4f5c3cfe-3a1f-4bd5-aff8-09c254c9ed88"
+                  "componentId": "bf9db8f5-951d-48b8-b9e1-23b6280cfd59"
                 }
               ]
             },
             {
-              "id": "4d5d5526-c24d-45f2-ac29-08c81ed055d8",
+              "id": "6059d620-492d-4a0b-ab7b-49686c88562a",
               "name": "referralDropdown",
               "type": "DropDown",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
-              "parent": "2046b0fa-1c66-4ea0-86f4-b2a36e1321fa",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
+              "parent": "18ecd812-0156-4180-ac22-7667eaaffd50",
               "properties": {
                 "advanced": {
                   "value": "{{false}}"
@@ -18258,25 +18253,25 @@
                   "value": null
                 }
               },
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "b81ddc82-8275-485e-a121-1eba6bc8ee14",
+                  "id": "9a880c07-b95f-4800-a933-294427d1f521",
                   "type": "desktop",
                   "top": 20,
                   "left": 58.13953488372093,
                   "width": 15.000000000000002,
                   "height": 40,
-                  "componentId": "4d5d5526-c24d-45f2-ac29-08c81ed055d8"
+                  "componentId": "6059d620-492d-4a0b-ab7b-49686c88562a"
                 }
               ]
             },
             {
-              "id": "c125f0e5-45df-45cf-8a57-16c58891111b",
+              "id": "30349c30-375a-4312-b833-c02dfc824b9a",
               "name": "button1",
               "type": "Button",
-              "pageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "pageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "parent": null,
               "properties": {},
               "general": null,
@@ -18291,303 +18286,372 @@
                 }
               },
               "validation": {},
-              "createdAt": "2024-02-29T10:49:33.933Z",
-              "updatedAt": "2024-02-29T10:49:33.933Z",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
               "layouts": [
                 {
-                  "id": "44838fb7-cd01-4e78-b73c-d903d1b72111",
+                  "id": "1fcb2f7b-733d-465f-ac8c-94e5fc530744",
                   "type": "desktop",
                   "top": 710,
                   "left": 90.69767441860465,
                   "width": 3,
                   "height": 30,
-                  "componentId": "c125f0e5-45df-45cf-8a57-16c58891111b"
+                  "componentId": "30349c30-375a-4312-b833-c02dfc824b9a"
                 },
                 {
-                  "id": "6ede4d23-15a6-4c73-a562-d485f53b825f",
+                  "id": "9145e184-ba5d-4b3f-bcfc-15d38f68f950",
                   "type": "mobile",
                   "top": 710,
                   "left": 90.69767441860465,
                   "width": 3,
                   "height": 30,
-                  "componentId": "c125f0e5-45df-45cf-8a57-16c58891111b"
+                  "componentId": "30349c30-375a-4312-b833-c02dfc824b9a"
                 }
               ]
             }
           ],
           "pages": [
             {
-              "id": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "id": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "name": "Home",
               "handle": "home",
               "index": 0,
               "disabled": false,
               "hidden": false,
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad"
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12"
             }
           ],
           "events": [
             {
-              "id": "f54a2979-9a8f-4868-989c-8eb30f5a7f8f",
-              "name": "onSelect",
-              "index": 0,
-              "event": {
-                "eventId": "onSelect",
-                "message": "Hello world!",
-                "queryId": "b9f700ce-930c-4f86-82bc-171cf72d8e22",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "activationFunnel",
-                "parameters": {}
-              },
-              "sourceId": "88bd5113-6606-43de-8a03-a1a91a07c272",
-              "target": "component",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.518Z"
-            },
-            {
-              "id": "a8398213-6751-44e1-bb2e-66eb5d58bb53",
-              "name": "onSelect",
-              "index": 0,
-              "event": {
-                "eventId": "onSelect",
-                "message": "Hello world!",
-                "queryId": "0e8eace0-bdbd-4cbc-8f2f-ce6ffc0e3bbf",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "retention",
-                "parameters": {}
-              },
-              "sourceId": "68e88894-3c3b-4dd2-8c3d-26db351f658e",
-              "target": "component",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.525Z"
-            },
-            {
-              "id": "e7256b9e-e945-41b8-a136-1c23dc32113e",
-              "name": "onSelect",
-              "index": 0,
-              "event": {
-                "eventId": "onSelect",
-                "message": "Hello world!",
-                "queryId": "a7316bf3-aee0-48fa-a30b-bfd327ffd4c7",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "revenue",
-                "parameters": {}
-              },
-              "sourceId": "1328855a-4113-4d4e-912a-19982d0ee040",
-              "target": "component",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.533Z"
-            },
-            {
-              "id": "b82d0994-7470-49ae-aa9a-c3e45cddca69",
-              "name": "onSelect",
-              "index": 0,
-              "event": {
-                "eventId": "onSelect",
-                "message": "Hello world!",
-                "queryId": "b5362810-515f-471c-8ec3-11d036199afc",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "acquisition",
-                "parameters": {}
-              },
-              "sourceId": "4f5c3cfe-3a1f-4bd5-aff8-09c254c9ed88",
-              "target": "component",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.539Z"
-            },
-            {
-              "id": "2bfce86b-d52a-4b97-a61e-59d6506f8e2e",
-              "name": "onSelect",
-              "index": 0,
-              "event": {
-                "eventId": "onSelect",
-                "message": "Hello world!",
-                "queryId": "6e89aa78-c419-4d21-a6c8-342c5eb7f3a9",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "referral",
-                "parameters": {}
-              },
-              "sourceId": "4d5d5526-c24d-45f2-ac29-08c81ed055d8",
-              "target": "component",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.545Z"
-            },
-            {
-              "id": "0da3080c-e2f3-4a3c-8bbc-28ef59e30d84",
+              "id": "76ddd41f-d77e-4a27-8454-735993cc7d1d",
               "name": "onDataQuerySuccess",
               "index": 0,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "queryId": "b5362810-515f-471c-8ec3-11d036199afc",
+                "queryId": "ef277cc2-0d80-48de-bdaf-9ad6777bdceb",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "acquisition",
                 "parameters": {}
               },
-              "sourceId": "21245503-d11d-409e-ab94-f53a3b56b5be",
+              "sourceId": "5c2ae2d8-797a-4001-8f9c-9a948557c39a",
               "target": "data_query",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.550Z"
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "6abdfeaa-031e-4c71-b603-6f62b575193f",
+              "id": "26e2c1e1-d5e7-48e0-98f5-133351b88b79",
               "name": "onDataQuerySuccess",
               "index": 1,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "queryId": "b9f700ce-930c-4f86-82bc-171cf72d8e22",
+                "queryId": "f6f0ab68-9eb9-427c-8e04-5e78f811cde8",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "activationFunnel",
                 "parameters": {}
               },
-              "sourceId": "21245503-d11d-409e-ab94-f53a3b56b5be",
+              "sourceId": "5c2ae2d8-797a-4001-8f9c-9a948557c39a",
               "target": "data_query",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.557Z"
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "4839682a-87c1-4db1-8ffd-9028bc4dccfb",
+              "id": "c02b6967-b74c-47d6-8020-6565550fb315",
               "name": "onDataQuerySuccess",
               "index": 2,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "queryId": "6e89aa78-c419-4d21-a6c8-342c5eb7f3a9",
+                "queryId": "229696bc-1513-4817-9d28-df15d22a148e",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "referral",
                 "parameters": {}
               },
-              "sourceId": "21245503-d11d-409e-ab94-f53a3b56b5be",
+              "sourceId": "5c2ae2d8-797a-4001-8f9c-9a948557c39a",
               "target": "data_query",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.563Z"
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "ba9d0cab-67f2-44a6-bd81-511ec00764db",
+              "id": "14450559-0841-45a3-927c-669e239ae890",
               "name": "onDataQuerySuccess",
               "index": 3,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "queryId": "0e8eace0-bdbd-4cbc-8f2f-ce6ffc0e3bbf",
+                "queryId": "99cd2b34-6454-49e0-baf4-3516bcf9fac9",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "retention",
                 "parameters": {}
               },
-              "sourceId": "21245503-d11d-409e-ab94-f53a3b56b5be",
+              "sourceId": "5c2ae2d8-797a-4001-8f9c-9a948557c39a",
               "target": "data_query",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.570Z"
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "d28bdebf-e06f-4c03-8d96-d1292870906e",
+              "id": "66a039f8-e49d-4703-ac70-9989448c3866",
               "name": "onDataQuerySuccess",
               "index": 4,
               "event": {
                 "eventId": "onDataQuerySuccess",
                 "message": "Hello world!",
-                "queryId": "a7316bf3-aee0-48fa-a30b-bfd327ffd4c7",
+                "queryId": "5226b83c-e303-49fc-b4b4-47144115543e",
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "revenue",
                 "parameters": {}
               },
-              "sourceId": "21245503-d11d-409e-ab94-f53a3b56b5be",
+              "sourceId": "5c2ae2d8-797a-4001-8f9c-9a948557c39a",
               "target": "data_query",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:17.575Z"
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "8a5d34ed-e27a-4b5e-82b7-c37d8fae0875",
+              "name": "onDataQuerySuccess",
+              "index": 0,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "ef277cc2-0d80-48de-bdaf-9ad6777bdceb",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "acquisition",
+                "parameters": {}
+              },
+              "sourceId": "9e842c32-827e-4e47-bcb0-2fa6f403b840",
+              "target": "data_query",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "8254c343-2a19-42e9-9cb9-6f40de2a1e15",
+              "name": "onDataQuerySuccess",
+              "index": 1,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "f6f0ab68-9eb9-427c-8e04-5e78f811cde8",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "activationFunnel",
+                "parameters": {}
+              },
+              "sourceId": "9e842c32-827e-4e47-bcb0-2fa6f403b840",
+              "target": "data_query",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "e32a5b26-d23c-48eb-8bbd-40bb8d6b60b2",
+              "name": "onDataQuerySuccess",
+              "index": 2,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "229696bc-1513-4817-9d28-df15d22a148e",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "referral",
+                "parameters": {}
+              },
+              "sourceId": "9e842c32-827e-4e47-bcb0-2fa6f403b840",
+              "target": "data_query",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "e64d4bc7-5ed2-4872-9ff6-10e5513ec81f",
+              "name": "onDataQuerySuccess",
+              "index": 3,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "99cd2b34-6454-49e0-baf4-3516bcf9fac9",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "retention",
+                "parameters": {}
+              },
+              "sourceId": "9e842c32-827e-4e47-bcb0-2fa6f403b840",
+              "target": "data_query",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "70946973-c035-4324-ac42-5804003cac66",
+              "name": "onDataQuerySuccess",
+              "index": 4,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "5226b83c-e303-49fc-b4b4-47144115543e",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "revenue",
+                "parameters": {}
+              },
+              "sourceId": "9e842c32-827e-4e47-bcb0-2fa6f403b840",
+              "target": "data_query",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "7d89839a-175d-4219-8e9f-3bf3ab95f244",
+              "name": "onSelect",
+              "index": 0,
+              "event": {
+                "eventId": "onSelect",
+                "message": "Hello world!",
+                "queryId": "f6f0ab68-9eb9-427c-8e04-5e78f811cde8",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "activationFunnel",
+                "parameters": {}
+              },
+              "sourceId": "dfdc7b6e-385e-4bf1-9f50-24769d800371",
+              "target": "component",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "31324453-8ee8-46b2-9a41-6c8b53c64350",
+              "name": "onSelect",
+              "index": 0,
+              "event": {
+                "eventId": "onSelect",
+                "message": "Hello world!",
+                "queryId": "99cd2b34-6454-49e0-baf4-3516bcf9fac9",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "retention",
+                "parameters": {}
+              },
+              "sourceId": "5dd97c9c-4bde-4f7d-bbd7-8b66c9d776c7",
+              "target": "component",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "392871c8-1de3-4382-b250-ca62d21ae914",
+              "name": "onSelect",
+              "index": 0,
+              "event": {
+                "eventId": "onSelect",
+                "message": "Hello world!",
+                "queryId": "5226b83c-e303-49fc-b4b4-47144115543e",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "revenue",
+                "parameters": {}
+              },
+              "sourceId": "3e1a2a95-2398-4411-8b08-7092711b2ba6",
+              "target": "component",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "5bc859ad-8ef8-409a-8d16-045eded9f684",
+              "name": "onSelect",
+              "index": 0,
+              "event": {
+                "eventId": "onSelect",
+                "message": "Hello world!",
+                "queryId": "ef277cc2-0d80-48de-bdaf-9ad6777bdceb",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "acquisition",
+                "parameters": {}
+              },
+              "sourceId": "bf9db8f5-951d-48b8-b9e1-23b6280cfd59",
+              "target": "component",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "becb9a51-0cd9-43bb-8719-e54a9f785263",
+              "name": "onSelect",
+              "index": 0,
+              "event": {
+                "eventId": "onSelect",
+                "message": "Hello world!",
+                "queryId": "229696bc-1513-4817-9d28-df15d22a148e",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "referral",
+                "parameters": {}
+              },
+              "sourceId": "6059d620-492d-4a0b-ab7b-49686c88562a",
+              "target": "component",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             }
           ],
           "dataQueries": [
             {
-              "id": "a7316bf3-aee0-48fa-a30b-bfd327ffd4c7",
+              "id": "5226b83c-e303-49fc-b4b4-47144115543e",
               "name": "revenue",
               "options": {
                 "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.subscription_ends_on ?? \"0\") >=\n      moment().startOf(components.revenueDropdown.value).valueOf() &&\n    parseInt(row?.subscription_ends_on ?? \"0\") <=\n      moment().endOf(components.revenueDropdown.value).valueOf()\n);\n\nvar chartData = [];\n\nif (data.length > 0) {\n  var preStart = 0;\n\n  while (\n    data.length > 0 &&\n    moment(parseInt(data[0].subscription_starts_on)).isBefore(\n      moment().startOf(components.revenueDropdown.value)\n    )\n  ) {\n    preStart += 1;\n    data.shift();\n  }\n\n  function getDates(type, date, format) {\n    const startDate = moment(date).startOf(type);\n    const endDate = moment(startDate).endOf(type);\n    const jump = { month: \"day\", quarter: \"month\", year: \"month\" }[type];\n    var dateWiseCount = {};\n    var dates = [];\n\n    dates.push(startDate.format(format));\n    dateWiseCount[startDate.format(format)] = preStart ?? 0;\n    startDate.add(1, jump);\n\n    while (startDate.isSameOrBefore(endDate)) {\n      dates.push(startDate.format(format));\n      dateWiseCount[startDate.format(format)] = 0;\n      startDate.add(1, jump);\n    }\n\n    return { dates, dateWiseCount };\n  }\n\n  const type = components.revenueDropdown.value;\n  const date = moment().startOf(components.revenueDropdown.value).valueOf();\n  const format = { month: \"Do MMM\", quarter: \"MMM\", year: \"MMM\" }[type];\n  const { dates, dateWiseCount } = getDates(type, date, format);\n\n  data.forEach((row) => {\n    const startDate = moment(parseInt(row.subscription_starts_on)).format(\n      format\n    );\n    const endDate = moment(parseInt(row.subscription_ends_on)).format(format);\n    var startIndex = dates.indexOf(startDate);\n    var endIndex = dates.indexOf(endDate);\n    const tempDates = dates.slice(startIndex, endIndex + 1);\n    tempDates.forEach((date) => {\n      dateWiseCount[date] += 1;\n    });\n  });\n\n  chartData = dates.map((date) => ({ x: date, y: dateWiseCount[date] }));\n}\n\nreturn { chartData };",
                 "hasParamSupport": true,
                 "parameters": []
               },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
+              "dataSourceId": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "6e89aa78-c419-4d21-a6c8-342c5eb7f3a9",
+              "id": "229696bc-1513-4817-9d28-df15d22a148e",
               "name": "referral",
               "options": {
                 "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.last_referred_on ?? \"0\") >=\n    (components.referralDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.referralDropdown.value).valueOf())\n);\n\nvar totalReferrals = 0;\n\ndata.forEach((row) => {\n  totalReferrals += row?.referred_users_count ?? 0;\n});\n\nreturn { totalReferrals };",
                 "hasParamSupport": true,
                 "parameters": []
               },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
+              "dataSourceId": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "b9f700ce-930c-4f86-82bc-171cf72d8e22",
+              "id": "f6f0ab68-9eb9-427c-8e04-5e78f811cde8",
               "name": "activationFunnel",
               "options": {
                 "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.signed_up_on ?? \"0\") >=\n    (components.activationFunnelDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.activationFunnelDropdown.value).valueOf())\n);\n\nvar totalSignups = 0;\nvar totalUsersCreatedApps = 0;\nvar totalUsersReleasedApps = 0;\n\ndata.forEach((row) => {\n  totalSignups += 1;\n  if (row.first_app_created_on != null) {\n    totalUsersCreatedApps += 1;\n  }\n  if (row.first_app_released_on != null) {\n    totalUsersReleasedApps += 1;\n  }\n});\n\nreturn { totalSignups, totalUsersCreatedApps, totalUsersReleasedApps };",
                 "hasParamSupport": true,
                 "parameters": []
               },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
+              "dataSourceId": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "b5362810-515f-471c-8ec3-11d036199afc",
-              "name": "acquisition",
-              "options": {
-                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.signed_up_on ?? \"0\") >=\n    (components.acquisitionDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.acquisitionDropdown.value).valueOf())\n);\n\nvar totalSignups = 0;\nvar signupByChannel = {};\nvar totalSubscribed = 0;\n\ndata.forEach((row) => {\n  totalSignups += 1;\n\n  if (!(row.redirected_from in signupByChannel)) {\n    signupByChannel[row.redirected_from] = 0;\n  }\n  signupByChannel[row.redirected_from] += 1;\n\n  if (\n    (components.acquisitionDropdown.value == \"*\" &&\n      row.subscription_starts_on != null) ||\n    (components.acquisitionDropdown.value != \"*\" &&\n      moment(parseInt(row.subscription_starts_on)).isSameOrAfter(\n        moment().startOf(components.acquisitionDropdown.value).valueOf()\n      ))\n  ) {\n    totalSubscribed += 1;\n  }\n});\n\nreturn { totalSignups, signupByChannel, totalSubscribed };",
-                "hasParamSupport": true,
-                "parameters": []
-              },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
-            },
-            {
-              "id": "0e8eace0-bdbd-4cbc-8f2f-ce6ffc0e3bbf",
-              "name": "retention",
-              "options": {
-                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.last_active_on ?? \"0\") >=\n    moment().startOf(components.retentionDropdown.value).valueOf()\n);\n\nvar chartData = [];\n\nif (data.length > 0) {\n  var preStart = 0;\n\n  while (\n    data.length > 0 &&\n    moment(parseInt(data[0].signed_up_on)).isBefore(\n      moment().startOf(components.retentionDropdown.value)\n    )\n  ) {\n    preStart += 1;\n    data.shift();\n  }\n\n  function getDates(type, date, format) {\n    const startDate = moment(date).startOf(type);\n    const endDate = moment(startDate).endOf(type);\n    const jump = { month: \"day\", quarter: \"month\", year: \"month\" }[type];\n    var dateWiseCount = {};\n    var dates = [];\n\n    dates.push(startDate.format(format));\n    dateWiseCount[startDate.format(format)] = preStart ?? 0;\n    startDate.add(1, jump);\n\n    while (startDate.isSameOrBefore(endDate)) {\n      dates.push(startDate.format(format));\n      dateWiseCount[startDate.format(format)] = 0;\n      startDate.add(1, jump);\n    }\n\n    return { dates, dateWiseCount };\n  }\n\n  const type = components.retentionDropdown.value;\n  const date = moment().startOf(components.retentionDropdown.value).valueOf();\n  const format = { month: \"Do MMM\", quarter: \"MMM\", year: \"MMM\" }[type];\n  const { dates, dateWiseCount } = getDates(type, date, format);\n\n  data.forEach((row) => {\n    const startDate = moment(parseInt(row.signed_up_on)).format(format);\n    const endDate = moment(parseInt(row.last_active_on)).format(format);\n    var startIndex = dates.indexOf(startDate);\n    var endIndex = dates.indexOf(endDate);\n    const tempDates = dates.slice(startIndex, endIndex + 1);\n    tempDates.forEach((date) => {\n      dateWiseCount[date] += 1;\n    });\n  });\n\n  chartData = dates.map((date) => ({ x: date, y: dateWiseCount[date] }));\n}\n\nreturn { chartData };",
-                "hasParamSupport": true,
-                "parameters": []
-              },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
-            },
-            {
-              "id": "21245503-d11d-409e-ab94-f53a3b56b5be",
+              "id": "5c2ae2d8-797a-4001-8f9c-9a948557c39a",
               "name": "getAllData",
               "options": {
                 "transformationLanguage": "javascript",
@@ -18603,7 +18667,6 @@
                     "actionId": "run-query",
                     "message": "Hello world!",
                     "alertType": "info",
-                    "queryId": "34280afe-2371-4ce1-b96f-48f4eae9d9f1",
                     "queryName": "acquisition",
                     "parameters": {}
                   },
@@ -18612,7 +18675,6 @@
                     "actionId": "run-query",
                     "message": "Hello world!",
                     "alertType": "info",
-                    "queryId": "628f25c5-e1db-4ea4-9caa-6dbaeac57080",
                     "queryName": "activationFunnel",
                     "parameters": {}
                   },
@@ -18621,7 +18683,6 @@
                     "actionId": "run-query",
                     "message": "Hello world!",
                     "alertType": "info",
-                    "queryId": "49c32bb4-8ee8-46dc-8231-0622a1185c73",
                     "queryName": "referral",
                     "parameters": {}
                   },
@@ -18630,7 +18691,6 @@
                     "actionId": "run-query",
                     "message": "Hello world!",
                     "alertType": "info",
-                    "queryId": "022ecac4-61dc-4b39-aa1a-21c77dff2c50",
                     "queryName": "retention",
                     "parameters": {}
                   },
@@ -18639,90 +18699,174 @@
                     "actionId": "run-query",
                     "message": "Hello world!",
                     "alertType": "info",
-                    "queryId": "8f74973e-ad1c-4653-a659-e0857b8638cc",
+                    "queryName": "revenue",
+                    "parameters": {}
+                  }
+                ]
+              },
+              "dataSourceId": "a1d7ef78-4d94-4edc-bba3-05f68d92aa53",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "ef277cc2-0d80-48de-bdaf-9ad6777bdceb",
+              "name": "acquisition",
+              "options": {
+                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.signed_up_on ?? \"0\") >=\n    (components.acquisitionDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.acquisitionDropdown.value).valueOf())\n);\n\nvar totalSignups = 0;\nvar signupByChannel = {};\nvar totalSubscribed = 0;\n\ndata.forEach((row) => {\n  totalSignups += 1;\n\n  if (!(row.redirected_from in signupByChannel)) {\n    signupByChannel[row.redirected_from] = 0;\n  }\n  signupByChannel[row.redirected_from] += 1;\n\n  if (\n    (components.acquisitionDropdown.value == \"*\" &&\n      row.subscription_starts_on != null) ||\n    (components.acquisitionDropdown.value != \"*\" &&\n      moment(parseInt(row.subscription_starts_on)).isSameOrAfter(\n        moment().startOf(components.acquisitionDropdown.value).valueOf()\n      ))\n  ) {\n    totalSubscribed += 1;\n  }\n});\n\nreturn { totalSignups, signupByChannel, totalSubscribed };",
+                "hasParamSupport": true,
+                "parameters": []
+              },
+              "dataSourceId": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "99cd2b34-6454-49e0-baf4-3516bcf9fac9",
+              "name": "retention",
+              "options": {
+                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.last_active_on ?? \"0\") >=\n    moment().startOf(components.retentionDropdown.value).valueOf()\n);\n\nvar chartData = [];\n\nif (data.length > 0) {\n  var preStart = 0;\n\n  while (\n    data.length > 0 &&\n    moment(parseInt(data[0].signed_up_on)).isBefore(\n      moment().startOf(components.retentionDropdown.value)\n    )\n  ) {\n    preStart += 1;\n    data.shift();\n  }\n\n  function getDates(type, date, format) {\n    const startDate = moment(date).startOf(type);\n    const endDate = moment(startDate).endOf(type);\n    const jump = { month: \"day\", quarter: \"month\", year: \"month\" }[type];\n    var dateWiseCount = {};\n    var dates = [];\n\n    dates.push(startDate.format(format));\n    dateWiseCount[startDate.format(format)] = preStart ?? 0;\n    startDate.add(1, jump);\n\n    while (startDate.isSameOrBefore(endDate)) {\n      dates.push(startDate.format(format));\n      dateWiseCount[startDate.format(format)] = 0;\n      startDate.add(1, jump);\n    }\n\n    return { dates, dateWiseCount };\n  }\n\n  const type = components.retentionDropdown.value;\n  const date = moment().startOf(components.retentionDropdown.value).valueOf();\n  const format = { month: \"Do MMM\", quarter: \"MMM\", year: \"MMM\" }[type];\n  const { dates, dateWiseCount } = getDates(type, date, format);\n\n  data.forEach((row) => {\n    const startDate = moment(parseInt(row.signed_up_on)).format(format);\n    const endDate = moment(parseInt(row.last_active_on)).format(format);\n    var startIndex = dates.indexOf(startDate);\n    var endIndex = dates.indexOf(endDate);\n    const tempDates = dates.slice(startIndex, endIndex + 1);\n    tempDates.forEach((date) => {\n      dateWiseCount[date] += 1;\n    });\n  });\n\n  chartData = dates.map((date) => ({ x: date, y: dateWiseCount[date] }));\n}\n\nreturn { chartData };",
+                "hasParamSupport": true,
+                "parameters": []
+              },
+              "dataSourceId": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "9e842c32-827e-4e47-bcb0-2fa6f403b840",
+              "name": "getAllData",
+              "options": {
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "operation": "list_records",
+                "base_id": "appHx2mVr5xlzBNmJ",
+                "table_name": "kpi_table",
+                "runOnPageLoad": true,
+                "transformation": "return data.records\n  .map(({ fields, ...row }) => ({ ...row, ...fields }))\n  .sort((a, b) => a.signed_up_on - b.signed_up_on);",
+                "events": [
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "acquisition",
+                    "parameters": {}
+                  },
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "activationFunnel",
+                    "parameters": {}
+                  },
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "referral",
+                    "parameters": {}
+                  },
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "retention",
+                    "parameters": {}
+                  },
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
                     "queryName": "revenue",
                     "parameters": {}
                   }
                 ]
               },
               "dataSourceId": "c8ada529-283f-4c18-b8b1-89959541c12c",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:26.517Z"
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             }
           ],
           "dataSources": [
             {
-              "id": "c8ada529-283f-4c18-b8b1-89959541c12c",
-              "name": "kpi_management",
-              "kind": "airtable",
-              "type": "default",
-              "pluginId": null,
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "organizationId": "9ddf0348-adb7-482a-961b-5046c527bf09",
-              "scope": "global",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
-            },
-            {
-              "id": "a536ad2b-a92f-4764-8250-f398b08558c4",
+              "id": "70444dbb-6744-43b9-b82c-e7f1ee8c67a9",
               "name": "restapidefault",
               "kind": "restapi",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2024-02-29T10:47:16.910Z",
-              "updatedAt": "2024-02-29T10:47:16.910Z"
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "name": "runjsdefault",
-              "kind": "runjs",
-              "type": "static",
-              "pluginId": null,
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "organizationId": null,
-              "scope": "local",
-              "createdAt": "2024-02-29T10:47:16.926Z",
-              "updatedAt": "2024-02-29T10:47:16.926Z"
-            },
-            {
-              "id": "11ff0412-ba19-4d7f-87bf-968e6b0c0a2a",
-              "name": "runpydefault",
-              "kind": "runpy",
-              "type": "static",
-              "pluginId": null,
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "organizationId": null,
-              "scope": "local",
-              "createdAt": "2024-02-29T10:47:16.937Z",
-              "updatedAt": "2024-02-29T10:47:16.937Z"
-            },
-            {
-              "id": "619b9cfd-8937-4c6e-ad98-f32a05319439",
-              "name": "tooljetdbdefault",
-              "kind": "tooljetdb",
-              "type": "static",
-              "pluginId": null,
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "organizationId": null,
-              "scope": "local",
-              "createdAt": "2024-02-29T10:47:16.956Z",
-              "updatedAt": "2024-02-29T10:47:16.956Z"
-            },
-            {
-              "id": "118a9401-7f42-4d5c-913f-5bae045b9943",
+              "id": "39ef7844-c27e-4432-95ab-ec5eba226875",
               "name": "workflowsdefault",
               "kind": "workflows",
               "type": "static",
               "pluginId": null,
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
               "organizationId": null,
               "scope": "local",
-              "createdAt": "2024-02-29T10:47:16.969Z",
-              "updatedAt": "2024-02-29T10:47:16.969Z"
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "a1d7ef78-4d94-4edc-bba3-05f68d92aa53",
+              "name": "kpi_management",
+              "kind": "airtable",
+              "type": "default",
+              "pluginId": null,
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "d06a15fc-f807-4f0b-b5a5-ae3d62ca050e",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "9ce58650-b42e-4f20-ba31-a6e6dd59eb46",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
               "id": "c8ada529-283f-4c18-b8b1-89959541c12c",
@@ -18739,8 +18883,8 @@
           ],
           "appVersions": [
             {
-              "id": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "name": "v1",
+              "id": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "name": "new v2",
               "definition": {
                 "showViewerNavigation": false,
                 "homePageId": "60d56e2c-737e-496c-bf71-5985a166d3e2",
@@ -22018,7 +22162,6 @@
                                 "actionId": "run-query",
                                 "message": "Hello world!",
                                 "alertType": "info",
-                                "queryId": "34280afe-2371-4ce1-b96f-48f4eae9d9f1",
                                 "queryName": "acquisition",
                                 "parameters": {}
                               }
@@ -22723,7 +22866,6 @@
                                 "actionId": "run-query",
                                 "message": "Hello world!",
                                 "alertType": "info",
-                                "queryId": "022ecac4-61dc-4b39-aa1a-21c77dff2c50",
                                 "queryName": "retention",
                                 "parameters": {}
                               }
@@ -23587,7 +23729,6 @@
                                 "actionId": "run-query",
                                 "message": "Hello world!",
                                 "alertType": "info",
-                                "queryId": "628f25c5-e1db-4ea4-9caa-6dbaeac57080",
                                 "queryName": "activationFunnel",
                                 "parameters": {}
                               }
@@ -32772,7 +32913,6 @@
                                 "actionId": "run-query",
                                 "message": "Hello world!",
                                 "alertType": "info",
-                                "queryId": "49c32bb4-8ee8-46dc-8231-0622a1185c73",
                                 "queryName": "referral",
                                 "parameters": {}
                               }
@@ -33113,7 +33253,6 @@
                                 "actionId": "run-query",
                                 "message": "Hello world!",
                                 "alertType": "info",
-                                "queryId": "8f74973e-ad1c-4653-a659-e0857b8638cc",
                                 "queryName": "revenue",
                                 "parameters": {}
                               }
@@ -33244,12 +33383,12 @@
                 "backgroundFxQuery": ""
               },
               "showViewerNavigation": false,
-              "homePageId": "18fb0974-b1e0-444c-a687-4e50228abe82",
+              "homePageId": "df47d359-3ce0-4f82-9bf2-1e4a78eee3f2",
               "appId": "9954a745-45ba-4f31-b064-7b93e4a81bda",
               "currentEnvironmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
               "promotedFrom": null,
-              "createdAt": "2024-02-29T10:47:16.871Z",
-              "updatedAt": "2024-02-29T10:49:33.953Z"
+              "createdAt": "2024-02-29T10:55:52.556Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             }
           ],
           "appEnvironments": [
@@ -33285,126 +33424,6 @@
             }
           ],
           "dataSourceOptions": [
-            {
-              "id": "8040f5af-a0ad-4366-bb94-a9dcec8ecb1f",
-              "dataSourceId": "a536ad2b-a92f-4764-8250-f398b08558c4",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.919Z",
-              "updatedAt": "2024-02-29T10:47:16.919Z"
-            },
-            {
-              "id": "99aee17c-01d0-4d99-924e-7e5b725e7cf1",
-              "dataSourceId": "a536ad2b-a92f-4764-8250-f398b08558c4",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.919Z",
-              "updatedAt": "2024-02-29T10:47:16.919Z"
-            },
-            {
-              "id": "f4e2dd48-dddc-4454-a285-5357c29a0a05",
-              "dataSourceId": "a536ad2b-a92f-4764-8250-f398b08558c4",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.919Z",
-              "updatedAt": "2024-02-29T10:47:16.919Z"
-            },
-            {
-              "id": "7b6c7b6b-c3bc-49bc-9207-2332d4ec9dbb",
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.932Z",
-              "updatedAt": "2024-02-29T10:47:16.932Z"
-            },
-            {
-              "id": "55118d45-fd3c-4903-8910-298601873ce6",
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.932Z",
-              "updatedAt": "2024-02-29T10:47:16.932Z"
-            },
-            {
-              "id": "2e3824ca-221d-430c-8e4a-6234199b0ab7",
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.932Z",
-              "updatedAt": "2024-02-29T10:47:16.932Z"
-            },
-            {
-              "id": "73102a41-0118-444a-817a-27a709ac1958",
-              "dataSourceId": "11ff0412-ba19-4d7f-87bf-968e6b0c0a2a",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.950Z",
-              "updatedAt": "2024-02-29T10:47:16.950Z"
-            },
-            {
-              "id": "f8f1467c-7298-4a09-9a1f-6198b6d20a5f",
-              "dataSourceId": "11ff0412-ba19-4d7f-87bf-968e6b0c0a2a",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.950Z",
-              "updatedAt": "2024-02-29T10:47:16.950Z"
-            },
-            {
-              "id": "2372beca-8ecf-4d8c-bec5-a909c43fcd49",
-              "dataSourceId": "11ff0412-ba19-4d7f-87bf-968e6b0c0a2a",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.950Z",
-              "updatedAt": "2024-02-29T10:47:16.950Z"
-            },
-            {
-              "id": "64e3a536-1597-41f3-ad2f-8d17f93064b1",
-              "dataSourceId": "619b9cfd-8937-4c6e-ad98-f32a05319439",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.964Z",
-              "updatedAt": "2024-02-29T10:47:16.964Z"
-            },
-            {
-              "id": "5321d115-6c2d-4d2e-95d1-ce6f04d2d988",
-              "dataSourceId": "619b9cfd-8937-4c6e-ad98-f32a05319439",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.964Z",
-              "updatedAt": "2024-02-29T10:47:16.964Z"
-            },
-            {
-              "id": "5ed81c1c-ceaf-4c20-9128-ee93a8416ae0",
-              "dataSourceId": "619b9cfd-8937-4c6e-ad98-f32a05319439",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.964Z",
-              "updatedAt": "2024-02-29T10:47:16.964Z"
-            },
-            {
-              "id": "66e196cb-e71f-4e55-9c62-e995a0177a62",
-              "dataSourceId": "118a9401-7f42-4d5c-913f-5bae045b9943",
-              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.977Z",
-              "updatedAt": "2024-02-29T10:47:16.977Z"
-            },
-            {
-              "id": "15ab7ec0-8207-4969-948a-bcd15a1f89fe",
-              "dataSourceId": "118a9401-7f42-4d5c-913f-5bae045b9943",
-              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.978Z",
-              "updatedAt": "2024-02-29T10:47:16.978Z"
-            },
-            {
-              "id": "35c2384e-3775-4f0f-9aad-8d407233fb54",
-              "dataSourceId": "118a9401-7f42-4d5c-913f-5bae045b9943",
-              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
-              "options": null,
-              "createdAt": "2024-02-29T10:47:16.978Z",
-              "updatedAt": "2024-02-29T10:47:16.978Z"
-            },
             {
               "id": "a682b9b5-6c08-4379-86a6-7f148155b75b",
               "dataSourceId": "c8ada529-283f-4c18-b8b1-89959541c12c",
@@ -33443,6 +33462,165 @@
               },
               "createdAt": "2024-02-29T10:47:17.042Z",
               "updatedAt": "2024-02-29T10:47:17.042Z"
+            },
+            {
+              "id": "c3314b4a-411f-4e34-90db-1c6176030e50",
+              "dataSourceId": "70444dbb-6744-43b9-b82c-e7f1ee8c67a9",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "90c51aed-9044-463f-8dc8-6ac83105d882",
+              "dataSourceId": "70444dbb-6744-43b9-b82c-e7f1ee8c67a9",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "ec0748c3-ec71-47cc-9f11-eb361b570dbd",
+              "dataSourceId": "70444dbb-6744-43b9-b82c-e7f1ee8c67a9",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "05e71b09-8371-4dd8-a3e0-7cd8b2e7b5ef",
+              "dataSourceId": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "7c3820b0-da1c-42bb-8b3d-bac0df9decdd",
+              "dataSourceId": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "1f774389-50c4-4f5a-a85b-0c30d3e64dbc",
+              "dataSourceId": "969a15f9-24c1-4bbb-949a-a4439d1ba3e0",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "db95ac95-c6ec-493f-8e5f-4d10015e1103",
+              "dataSourceId": "9ce58650-b42e-4f20-ba31-a6e6dd59eb46",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "469eecdc-795b-4dce-8d67-9e8782b0baff",
+              "dataSourceId": "9ce58650-b42e-4f20-ba31-a6e6dd59eb46",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "2c9bb4d9-39af-4029-b909-a9f6c5f14f37",
+              "dataSourceId": "9ce58650-b42e-4f20-ba31-a6e6dd59eb46",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "70be3ba4-d172-4c8d-b0e4-478f58e01860",
+              "dataSourceId": "a1d7ef78-4d94-4edc-bba3-05f68d92aa53",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {
+                "api_key": {
+                  "credential_id": "f6877042-5e45-477c-869b-9687534ab6f9",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "c5ad1e30-6add-4c07-ac66-3c09fa1ec321",
+              "dataSourceId": "a1d7ef78-4d94-4edc-bba3-05f68d92aa53",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {
+                "api_key": {
+                  "credential_id": "72874d8b-9269-4773-b318-948a5ea0b9f1",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "62d19b90-2b6a-40cf-8fff-1e7cc9ece2e7",
+              "dataSourceId": "a1d7ef78-4d94-4edc-bba3-05f68d92aa53",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {
+                "api_key": {
+                  "credential_id": "cdc83c8c-61de-427e-bfc3-5df27212a905",
+                  "encrypted": true
+                }
+              },
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "d6bd0529-efe0-4410-8ad5-30249b094ef6",
+              "dataSourceId": "d06a15fc-f807-4f0b-b5a5-ae3d62ca050e",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "17abd0bf-d191-4414-9b37-274c6c6b0c54",
+              "dataSourceId": "d06a15fc-f807-4f0b-b5a5-ae3d62ca050e",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "2c377413-4fe9-49ec-afa6-74689686784b",
+              "dataSourceId": "39ef7844-c27e-4432-95ab-ec5eba226875",
+              "environmentId": "2a98dfb4-e18a-413f-8aab-6d93cd9454b4",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "472a226f-b5be-4897-8ec1-cfa0d92d0527",
+              "dataSourceId": "d06a15fc-f807-4f0b-b5a5-ae3d62ca050e",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "0973fd6c-5872-4b0d-ab98-469defaef5bf",
+              "dataSourceId": "39ef7844-c27e-4432-95ab-ec5eba226875",
+              "environmentId": "e19fb2f2-5e62-4218-9838-b67dadf511d8",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
+            },
+            {
+              "id": "4b21bf10-25ec-49bb-b3b6-9df132f281ad",
+              "dataSourceId": "39ef7844-c27e-4432-95ab-ec5eba226875",
+              "environmentId": "ef7d2afb-8173-4238-952a-3ec0848d20f9",
+              "options": {},
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:55:52.419Z"
             }
           ],
           "schemaDetails": {
