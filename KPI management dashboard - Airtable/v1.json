@@ -18493,6 +18493,58 @@
               "updatedAt": "2024-02-29T10:47:16.903Z"
             },
             {
+              "id": "6e89aa78-c419-4d21-a6c8-342c5eb7f3a9",
+              "name": "referral",
+              "options": {
+                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.last_referred_on ?? \"0\") >=\n    (components.referralDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.referralDropdown.value).valueOf())\n);\n\nvar totalReferrals = 0;\n\ndata.forEach((row) => {\n  totalReferrals += row?.referred_users_count ?? 0;\n});\n\nreturn { totalReferrals };",
+                "hasParamSupport": true,
+                "parameters": []
+              },
+              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
+              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
+              "createdAt": "2024-02-29T10:47:16.903Z",
+              "updatedAt": "2024-02-29T10:47:16.903Z"
+            },
+            {
+              "id": "b9f700ce-930c-4f86-82bc-171cf72d8e22",
+              "name": "activationFunnel",
+              "options": {
+                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.signed_up_on ?? \"0\") >=\n    (components.activationFunnelDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.activationFunnelDropdown.value).valueOf())\n);\n\nvar totalSignups = 0;\nvar totalUsersCreatedApps = 0;\nvar totalUsersReleasedApps = 0;\n\ndata.forEach((row) => {\n  totalSignups += 1;\n  if (row.first_app_created_on != null) {\n    totalUsersCreatedApps += 1;\n  }\n  if (row.first_app_released_on != null) {\n    totalUsersReleasedApps += 1;\n  }\n});\n\nreturn { totalSignups, totalUsersCreatedApps, totalUsersReleasedApps };",
+                "hasParamSupport": true,
+                "parameters": []
+              },
+              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
+              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
+              "createdAt": "2024-02-29T10:47:16.903Z",
+              "updatedAt": "2024-02-29T10:47:16.903Z"
+            },
+            {
+              "id": "b5362810-515f-471c-8ec3-11d036199afc",
+              "name": "acquisition",
+              "options": {
+                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.signed_up_on ?? \"0\") >=\n    (components.acquisitionDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.acquisitionDropdown.value).valueOf())\n);\n\nvar totalSignups = 0;\nvar signupByChannel = {};\nvar totalSubscribed = 0;\n\ndata.forEach((row) => {\n  totalSignups += 1;\n\n  if (!(row.redirected_from in signupByChannel)) {\n    signupByChannel[row.redirected_from] = 0;\n  }\n  signupByChannel[row.redirected_from] += 1;\n\n  if (\n    (components.acquisitionDropdown.value == \"*\" &&\n      row.subscription_starts_on != null) ||\n    (components.acquisitionDropdown.value != \"*\" &&\n      moment(parseInt(row.subscription_starts_on)).isSameOrAfter(\n        moment().startOf(components.acquisitionDropdown.value).valueOf()\n      ))\n  ) {\n    totalSubscribed += 1;\n  }\n});\n\nreturn { totalSignups, signupByChannel, totalSubscribed };",
+                "hasParamSupport": true,
+                "parameters": []
+              },
+              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
+              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
+              "createdAt": "2024-02-29T10:47:16.903Z",
+              "updatedAt": "2024-02-29T10:47:16.903Z"
+            },
+            {
+              "id": "0e8eace0-bdbd-4cbc-8f2f-ce6ffc0e3bbf",
+              "name": "retention",
+              "options": {
+                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.last_active_on ?? \"0\") >=\n    moment().startOf(components.retentionDropdown.value).valueOf()\n);\n\nvar chartData = [];\n\nif (data.length > 0) {\n  var preStart = 0;\n\n  while (\n    data.length > 0 &&\n    moment(parseInt(data[0].signed_up_on)).isBefore(\n      moment().startOf(components.retentionDropdown.value)\n    )\n  ) {\n    preStart += 1;\n    data.shift();\n  }\n\n  function getDates(type, date, format) {\n    const startDate = moment(date).startOf(type);\n    const endDate = moment(startDate).endOf(type);\n    const jump = { month: \"day\", quarter: \"month\", year: \"month\" }[type];\n    var dateWiseCount = {};\n    var dates = [];\n\n    dates.push(startDate.format(format));\n    dateWiseCount[startDate.format(format)] = preStart ?? 0;\n    startDate.add(1, jump);\n\n    while (startDate.isSameOrBefore(endDate)) {\n      dates.push(startDate.format(format));\n      dateWiseCount[startDate.format(format)] = 0;\n      startDate.add(1, jump);\n    }\n\n    return { dates, dateWiseCount };\n  }\n\n  const type = components.retentionDropdown.value;\n  const date = moment().startOf(components.retentionDropdown.value).valueOf();\n  const format = { month: \"Do MMM\", quarter: \"MMM\", year: \"MMM\" }[type];\n  const { dates, dateWiseCount } = getDates(type, date, format);\n\n  data.forEach((row) => {\n    const startDate = moment(parseInt(row.signed_up_on)).format(format);\n    const endDate = moment(parseInt(row.last_active_on)).format(format);\n    var startIndex = dates.indexOf(startDate);\n    var endIndex = dates.indexOf(endDate);\n    const tempDates = dates.slice(startIndex, endIndex + 1);\n    tempDates.forEach((date) => {\n      dateWiseCount[date] += 1;\n    });\n  });\n\n  chartData = dates.map((date) => ({ x: date, y: dateWiseCount[date] }));\n}\n\nreturn { chartData };",
+                "hasParamSupport": true,
+                "parameters": []
+              },
+              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
+              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
+              "createdAt": "2024-02-29T10:47:16.903Z",
+              "updatedAt": "2024-02-29T10:47:16.903Z"
+            },
+            {
               "id": "21245503-d11d-409e-ab94-f53a3b56b5be",
               "name": "getAllData",
               "options": {
@@ -18554,59 +18606,7 @@
               "dataSourceId": "c8ada529-283f-4c18-b8b1-89959541c12c",
               "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
               "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
-            },
-            {
-              "id": "6e89aa78-c419-4d21-a6c8-342c5eb7f3a9",
-              "name": "referral",
-              "options": {
-                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.last_referred_on ?? \"0\") >=\n    (components.referralDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.referralDropdown.value).valueOf())\n);\n\nvar totalReferrals = 0;\n\ndata.forEach((row) => {\n  totalReferrals += row?.referred_users_count ?? 0;\n});\n\nreturn { totalReferrals };",
-                "hasParamSupport": true,
-                "parameters": []
-              },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
-            },
-            {
-              "id": "b9f700ce-930c-4f86-82bc-171cf72d8e22",
-              "name": "activationFunnel",
-              "options": {
-                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.signed_up_on ?? \"0\") >=\n    (components.activationFunnelDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.activationFunnelDropdown.value).valueOf())\n);\n\nvar totalSignups = 0;\nvar totalUsersCreatedApps = 0;\nvar totalUsersReleasedApps = 0;\n\ndata.forEach((row) => {\n  totalSignups += 1;\n  if (row.first_app_created_on != null) {\n    totalUsersCreatedApps += 1;\n  }\n  if (row.first_app_released_on != null) {\n    totalUsersReleasedApps += 1;\n  }\n});\n\nreturn { totalSignups, totalUsersCreatedApps, totalUsersReleasedApps };",
-                "hasParamSupport": true,
-                "parameters": []
-              },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
-            },
-            {
-              "id": "b5362810-515f-471c-8ec3-11d036199afc",
-              "name": "acquisition",
-              "options": {
-                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.signed_up_on ?? \"0\") >=\n    (components.acquisitionDropdown.value == \"*\"\n      ? 0\n      : moment().startOf(components.acquisitionDropdown.value).valueOf())\n);\n\nvar totalSignups = 0;\nvar signupByChannel = {};\nvar totalSubscribed = 0;\n\ndata.forEach((row) => {\n  totalSignups += 1;\n\n  if (!(row.redirected_from in signupByChannel)) {\n    signupByChannel[row.redirected_from] = 0;\n  }\n  signupByChannel[row.redirected_from] += 1;\n\n  if (\n    (components.acquisitionDropdown.value == \"*\" &&\n      row.subscription_starts_on != null) ||\n    (components.acquisitionDropdown.value != \"*\" &&\n      moment(parseInt(row.subscription_starts_on)).isSameOrAfter(\n        moment().startOf(components.acquisitionDropdown.value).valueOf()\n      ))\n  ) {\n    totalSubscribed += 1;\n  }\n});\n\nreturn { totalSignups, signupByChannel, totalSubscribed };",
-                "hasParamSupport": true,
-                "parameters": []
-              },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
-            },
-            {
-              "id": "0e8eace0-bdbd-4cbc-8f2f-ce6ffc0e3bbf",
-              "name": "retention",
-              "options": {
-                "code": "var data = queries.getAllData.data.filter(\n  (row) =>\n    parseInt(row?.last_active_on ?? \"0\") >=\n    moment().startOf(components.retentionDropdown.value).valueOf()\n);\n\nvar chartData = [];\n\nif (data.length > 0) {\n  var preStart = 0;\n\n  while (\n    data.length > 0 &&\n    moment(parseInt(data[0].signed_up_on)).isBefore(\n      moment().startOf(components.retentionDropdown.value)\n    )\n  ) {\n    preStart += 1;\n    data.shift();\n  }\n\n  function getDates(type, date, format) {\n    const startDate = moment(date).startOf(type);\n    const endDate = moment(startDate).endOf(type);\n    const jump = { month: \"day\", quarter: \"month\", year: \"month\" }[type];\n    var dateWiseCount = {};\n    var dates = [];\n\n    dates.push(startDate.format(format));\n    dateWiseCount[startDate.format(format)] = preStart ?? 0;\n    startDate.add(1, jump);\n\n    while (startDate.isSameOrBefore(endDate)) {\n      dates.push(startDate.format(format));\n      dateWiseCount[startDate.format(format)] = 0;\n      startDate.add(1, jump);\n    }\n\n    return { dates, dateWiseCount };\n  }\n\n  const type = components.retentionDropdown.value;\n  const date = moment().startOf(components.retentionDropdown.value).valueOf();\n  const format = { month: \"Do MMM\", quarter: \"MMM\", year: \"MMM\" }[type];\n  const { dates, dateWiseCount } = getDates(type, date, format);\n\n  data.forEach((row) => {\n    const startDate = moment(parseInt(row.signed_up_on)).format(format);\n    const endDate = moment(parseInt(row.last_active_on)).format(format);\n    var startIndex = dates.indexOf(startDate);\n    var endIndex = dates.indexOf(endDate);\n    const tempDates = dates.slice(startIndex, endIndex + 1);\n    tempDates.forEach((date) => {\n      dateWiseCount[date] += 1;\n    });\n  });\n\n  chartData = dates.map((date) => ({ x: date, y: dateWiseCount[date] }));\n}\n\nreturn { chartData };",
-                "hasParamSupport": true,
-                "parameters": []
-              },
-              "dataSourceId": "48fd9cef-15b3-4838-ae31-e96334263fd6",
-              "appVersionId": "338a7729-2dd8-4d64-ab82-12f16cb95aad",
-              "createdAt": "2024-02-29T10:47:16.903Z",
-              "updatedAt": "2024-02-29T10:47:16.903Z"
+              "updatedAt": "2024-02-29T10:47:26.517Z"
             }
           ],
           "dataSources": [
