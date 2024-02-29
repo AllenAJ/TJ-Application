@@ -6,7 +6,7 @@
         "appV2": {
           "id": "9954a745-45ba-4f31-b064-7b93e4a81bda",
           "type": "front-end",
-          "name": "KPI management dashboard - Airtable",
+          "name": "KPI management dashboard - Airtable 1",
           "slug": "9954a745-45ba-4f31-b064-7b93e4a81bda",
           "isPublic": false,
           "isMaintenanceOn": false,
@@ -18,7 +18,7 @@
           "workflowEnabled": false,
           "createdAt": "2024-02-29T10:47:16.858Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-02-29T10:47:17.609Z",
+          "updatedAt": "2024-02-29T10:59:10.699Z",
           "editingVersion": {
             "id": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
             "name": "new v2",
@@ -18651,65 +18651,6 @@
               "updatedAt": "2024-02-29T10:55:52.419Z"
             },
             {
-              "id": "5c2ae2d8-797a-4001-8f9c-9a948557c39a",
-              "name": "getAllData",
-              "options": {
-                "transformationLanguage": "javascript",
-                "enableTransformation": true,
-                "operation": "list_records",
-                "base_id": "appHx2mVr5xlzBNmJ",
-                "table_name": "kpi_table",
-                "runOnPageLoad": true,
-                "transformation": "return data.records\n  .map(({ fields, ...row }) => ({ ...row, ...fields }))\n  .sort((a, b) => a.signed_up_on - b.signed_up_on);",
-                "events": [
-                  {
-                    "eventId": "onDataQuerySuccess",
-                    "actionId": "run-query",
-                    "message": "Hello world!",
-                    "alertType": "info",
-                    "queryName": "acquisition",
-                    "parameters": {}
-                  },
-                  {
-                    "eventId": "onDataQuerySuccess",
-                    "actionId": "run-query",
-                    "message": "Hello world!",
-                    "alertType": "info",
-                    "queryName": "activationFunnel",
-                    "parameters": {}
-                  },
-                  {
-                    "eventId": "onDataQuerySuccess",
-                    "actionId": "run-query",
-                    "message": "Hello world!",
-                    "alertType": "info",
-                    "queryName": "referral",
-                    "parameters": {}
-                  },
-                  {
-                    "eventId": "onDataQuerySuccess",
-                    "actionId": "run-query",
-                    "message": "Hello world!",
-                    "alertType": "info",
-                    "queryName": "retention",
-                    "parameters": {}
-                  },
-                  {
-                    "eventId": "onDataQuerySuccess",
-                    "actionId": "run-query",
-                    "message": "Hello world!",
-                    "alertType": "info",
-                    "queryName": "revenue",
-                    "parameters": {}
-                  }
-                ]
-              },
-              "dataSourceId": "a1d7ef78-4d94-4edc-bba3-05f68d92aa53",
-              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
-              "createdAt": "2024-02-29T10:55:52.419Z",
-              "updatedAt": "2024-02-29T10:55:52.419Z"
-            },
-            {
               "id": "ef277cc2-0d80-48de-bdaf-9ad6777bdceb",
               "name": "acquisition",
               "options": {
@@ -18792,7 +18733,66 @@
               "dataSourceId": "c8ada529-283f-4c18-b8b1-89959541c12c",
               "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
               "createdAt": "2024-02-29T10:55:52.419Z",
-              "updatedAt": "2024-02-29T10:55:52.419Z"
+              "updatedAt": "2024-02-29T10:56:00.747Z"
+            },
+            {
+              "id": "5c2ae2d8-797a-4001-8f9c-9a948557c39a",
+              "name": "getAllData",
+              "options": {
+                "transformationLanguage": "javascript",
+                "enableTransformation": true,
+                "operation": "list_records",
+                "base_id": "appHx2mVr5xlzBNmJ",
+                "table_name": "kpi_table",
+                "runOnPageLoad": true,
+                "transformation": "return data.records\n  .map(({ fields, ...row }) => ({ ...row, ...fields }))\n  .sort((a, b) => a.signed_up_on - b.signed_up_on);",
+                "events": [
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "acquisition",
+                    "parameters": {}
+                  },
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "activationFunnel",
+                    "parameters": {}
+                  },
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "referral",
+                    "parameters": {}
+                  },
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "retention",
+                    "parameters": {}
+                  },
+                  {
+                    "eventId": "onDataQuerySuccess",
+                    "actionId": "run-query",
+                    "message": "Hello world!",
+                    "alertType": "info",
+                    "queryName": "revenue",
+                    "parameters": {}
+                  }
+                ]
+              },
+              "dataSourceId": "a1d7ef78-4d94-4edc-bba3-05f68d92aa53",
+              "appVersionId": "0dad8bef-a626-4ea3-a6d4-6049806b8a12",
+              "createdAt": "2024-02-29T10:55:52.419Z",
+              "updatedAt": "2024-02-29T10:56:00.536Z"
             }
           ],
           "dataSources": [
