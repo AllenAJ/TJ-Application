@@ -6,7 +6,7 @@
         "appV2": {
           "id": "9954a745-45ba-4f31-b064-7b93e4a81bda",
           "type": "front-end",
-          "name": "KPI management dashboard - Airtable 1",
+          "name": "KPI management dashboard - Airtable 123",
           "slug": "9954a745-45ba-4f31-b064-7b93e4a81bda",
           "isPublic": false,
           "isMaintenanceOn": false,
@@ -18,7 +18,7 @@
           "workflowEnabled": false,
           "createdAt": "2024-02-29T10:47:16.858Z",
           "creationMode": "DEFAULT",
-          "updatedAt": "2024-02-29T10:59:10.699Z",
+          "updatedAt": "2024-02-29T11:05:53.596Z",
           "editingVersion": {
             "id": "668bdd7a-ff3a-44e8-9b89-4995dfa2993d",
             "name": "v3",
@@ -18283,44 +18283,6 @@
           ],
           "events": [
             {
-              "id": "eee34278-af64-4380-8d80-a63d5c7975bc",
-              "name": "onDataQuerySuccess",
-              "index": 2,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "69b4c726-f333-4b77-8b87-2b1f1523fe2e",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "referral",
-                "parameters": {}
-              },
-              "sourceId": "05084ebb-a72f-424e-b4b1-a3c936952b94",
-              "target": "data_query",
-              "appVersionId": "668bdd7a-ff3a-44e8-9b89-4995dfa2993d",
-              "createdAt": "2024-02-29T11:02:18.293Z",
-              "updatedAt": "2024-02-29T11:02:18.293Z"
-            },
-            {
-              "id": "b4c4ee66-e4c3-4af9-8e75-c9159210ce69",
-              "name": "onDataQuerySuccess",
-              "index": 4,
-              "event": {
-                "eventId": "onDataQuerySuccess",
-                "message": "Hello world!",
-                "queryId": "9b319f1f-b949-49f1-8259-1f8760ddcc8f",
-                "actionId": "run-query",
-                "alertType": "info",
-                "queryName": "revenue",
-                "parameters": {}
-              },
-              "sourceId": "05084ebb-a72f-424e-b4b1-a3c936952b94",
-              "target": "data_query",
-              "appVersionId": "668bdd7a-ff3a-44e8-9b89-4995dfa2993d",
-              "createdAt": "2024-02-29T11:02:18.293Z",
-              "updatedAt": "2024-02-29T11:02:18.293Z"
-            },
-            {
               "id": "abe53e4f-b514-4400-9b06-3e3298db4353",
               "name": "onDataQuerySuccess",
               "index": 3,
@@ -18559,6 +18521,44 @@
                 "actionId": "run-query",
                 "alertType": "info",
                 "queryName": "activationFunnel",
+                "parameters": {}
+              },
+              "sourceId": "05084ebb-a72f-424e-b4b1-a3c936952b94",
+              "target": "data_query",
+              "appVersionId": "668bdd7a-ff3a-44e8-9b89-4995dfa2993d",
+              "createdAt": "2024-02-29T11:02:18.293Z",
+              "updatedAt": "2024-02-29T11:02:18.293Z"
+            },
+            {
+              "id": "eee34278-af64-4380-8d80-a63d5c7975bc",
+              "name": "onDataQuerySuccess",
+              "index": 2,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "69b4c726-f333-4b77-8b87-2b1f1523fe2e",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "referral",
+                "parameters": {}
+              },
+              "sourceId": "05084ebb-a72f-424e-b4b1-a3c936952b94",
+              "target": "data_query",
+              "appVersionId": "668bdd7a-ff3a-44e8-9b89-4995dfa2993d",
+              "createdAt": "2024-02-29T11:02:18.293Z",
+              "updatedAt": "2024-02-29T11:02:18.293Z"
+            },
+            {
+              "id": "b4c4ee66-e4c3-4af9-8e75-c9159210ce69",
+              "name": "onDataQuerySuccess",
+              "index": 4,
+              "event": {
+                "eventId": "onDataQuerySuccess",
+                "message": "Hello world!",
+                "queryId": "9b319f1f-b949-49f1-8259-1f8760ddcc8f",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "revenue",
                 "parameters": {}
               },
               "sourceId": "05084ebb-a72f-424e-b4b1-a3c936952b94",
